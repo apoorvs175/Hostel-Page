@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.heading_of_page {
+    display: inline-flex;
+    padding-top: 0.5em;
+    gap: 38em;
+    height: 4.2em;
+}
+
+.heading_of_page>h1 {
+    white-space: nowrap;
+}
+
+.name {
+    color: red;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+.navigation {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    font-size: 1.4em;
+    padding-right: 1em;
+
+}
+
+.navigation>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+.contianer {
+    background-image: url("./image1.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.six_images {
+    display: grid;
+    gap: 5em;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5em;
+    margin-left: 8em;
+}
+
+.ADDs_of_site {
+    padding-top: 8em;
+    padding-bottom: 5em;
+    height: 300vh;
+}
+
+.advertisement_1 {
+    display: flex;
+    gap: 5em;
+    padding-left: 2em;
+    padding-bottom: 8em;
+}
+
+.Adds_imgage1>img {
+    padding: 0.1em;
+    border: 2px solid rgb(186, 182, 182);
+    border-radius: 0.4em;
+}
+
+.Adds_content1>h2 {
+    padding-top: 1em;
+    color: rgb(255, 38, 38);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+.Adds_paragraph1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-wrap: wrap;
+    text-align: justify;
+    padding-top: 5em;
+    color: rgb(39, 32, 32);
+    font-size: 1.08em;
+}
+
+
+.advertisement_2 {
+    display: flex;
+    gap: 5em;
+}
+
+.Adds_imgage2 {
+    padding-right: 2em;
+}
+
+.Adds_imgage2>img {
+    padding: 0.1em;
+    border: 2px solid rgb(211, 205, 205);
+    border-radius: 0.4em;
+}
+
+.Adds_content2>h2 {
+    padding-top: 1em;
+    color: rgb(255, 38, 38);
+    font-size: 4em;
+    text-align: center;
+}
+
+.Adds_paragraph2 {
+
+    text-wrap: wrap;
+    text-align: justify;
+    justify-content: stretch;
+    padding-top: 5em;
+    padding-left: 2em;
+    color: rgb(39, 32, 32);
+    font-size: 1.08em;
+
+
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+.main_footer {
+    display: flex;
+}
+
+.mail_subscribe {
+    display: flex;
+    gap: 2em;
+    margin-left: 6em;
+    padding-top: 8em;
+
+}
+
+.mail_subscribe>input {
+    border: 3px solid red;
+    border-radius: 0.3em;
+    height: 2.5em;
+    width: 25em;
+}
+
+.mail_subscribe>button {
+    background-color: red;
+    border: 3px solid red;
+    border-radius: 0.2em;
+    color: white;
+    height: 2.5em;
+    width: 5rem;
+}
+
+.Links_of_fotter {
+    display: grid;
+    list-style: none;
+    row-gap: 0.3em;
+    column-gap: 5em;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10em;
+    padding-top: 5em;
+    margin-bottom: 7em;
+}
+
+#copyright {
+    text-align: center;
+    padding-bottom: 1.5em;
+
+}
